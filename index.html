@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+
+
+		<style type="text/css">
+        p { text-align: left;
+        }
+
+	video::-webkit-media-controls-panel {
+         background-image: linear-gradient(transparent, transparent) !important;
+    	}
+        .reveal section img { background:none; border:none; box-shadow:none; max-width: none; max-height: none;}
+        .reveal li {text-align: left; font-size: 55px;}
+        .reveal table {frame: box; font-size: 60px;}
+        .reveal ul {  display: block; text-align: left; margin: 0 0 0 1em;}
+        .reveal h4 {text-align: left;}
+        .reveal h3 {text-align: left;}
+        .reveal h2 {text-align: left;}
+        .reveal h1 {text-align: left;}
+        .reveal div {padding: 10px;}
+        .reveal table { border-collapse: collapse; }
+        figure {position: relative; top:0px;}
+        .reveal td, th {border: 5px solid white !important;}
+
+        /*.reveal .slides > section > section { text-align:left; }*/
+/*        .reveal .center {text-align: left;}*/
+        .reveal .lcred {
+    	text-align: left;
+    	font-size: 55% !important;
+		}
+			.cite {
+				font-color: blue;
+			}
+	.figt figcaption {position: absolute; left: 0px; top: -50px; text-align: center; font-size: 85%; background: rgba(0, 0, 0, 0);}
+	.figb figcaption {position: absolute; caption-side: bottom;  font-size: 85%; vertical-align: top;}
+	.figb2 figcaption {position: absolute; left: 30px ; top:525px ;  font-size: 85%; vertical-align: top;}
+
+/*		.figl figcaption {position: absolute; right: 10%; top:150px ; text-align: left; font-size: 60%;}
+*/		.hh {font-weight:bold !important; color: cyan; font-style: italic !important;}
+	.container{
+    display: flex;
+   	margin: 100px;
+   	flex-wrap: wrap;
+
+	}
+	.col{
+    	flex: 1;
+	}
+
+	.containerImage {
+	position: relative;
+	}
+	text.cite{
+		color:cyan;
+		font-size:70%;
+	}
+
+	.column {
+  	width: 50%
+  	height: 100%;
+  	clear: bottom;
+    }
+
+	#col3 .column {
+			width: 30%
+			height: 100%;
+			clear: bottom;
+	}
+
+	.row:{
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.reveal .slides section .fragment.step-fade-in-then-out {
+	opacity: 0;
+	display: none; }
+	.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+	opacity: 1;
+	display: inline; }
+	.videoWrapper {
+	  position: relative;
+	  padding-bottom: 1000%; /* 16:9 */
+	  height: 4000;
+	}
+	.videoWrapper iframe {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 1000%;
+	  height: auto;
+	}
+	.controls[data-state="hidden"] {
+	width: 50%;
+	}
+	.controls button:hover,
+	.controls button:focus {
+	opacity: 0.5;
+	}
+
+    </style>
+	</head>
+	<body>
+		<div class="reveal">
+		    <!-- In between the <div="reveal"> and the <div class="slides">-->
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+<!-- 			<header style="position: absolute; left: 10px;"></header> -->
+<!-- 			<header class="right" style="position: absolute; right: 10px;"></header> -->
+			<!-- ====================== BETWEEN REVEAL AND SLIDES ====================== -->
+			<div class="slides">
+				<section>
+					<h1>Origin and Evolution of S-Star Cluster</h1>
+					<h2>Aleksey Generozov</h2>
+					<!-- <h3>Technion, Haifa, Israel</h3> -->
+					<h3 class=fragment>Collaborators: Hagai Perets, Stefan Gillessen, Frank Eisenhauer, Reinhard Genzel</h3>
+					<div align="left"> <img src=figures/zuckerman_logo2.png /> </div>
+					<div align="left"> <img src=figures/TechnionLogo.png /> </div>
+
+				</section>
+
+
+
+				<section><h2>S-Star Orbits</h2>
+					<img src="figures/za2_og.svg" width="1600" align="left">
+				</section>
+
+
+				<section><h2>S-Star Orbits</h2>
+					<img src="figures/za2b_og.svg" width="1600" align="left">
+				</section>
+
+				<section><h2>S-Star Orbits</h2>
+					<img src="figures/za2c_og.svg" width="1600" align="left">
+				</section>
+
+
+				<section><h2>S-Star Orbits</h2>
+					<img src="figures/za2d_og.svg" width="1600" align="left">
+				</section>
+
+
+				<section><h2>S-Star Orbits</h2>
+					<img src="figures/za2e_og.svg" width="1600" align="left">
+				</section>
+
+
+
+
+
+				<section><h2>Binary disruptions</h2>
+					<div class=container>
+						<iframe width="1120" height="630" src="https://www.youtube.com/embed/Gtie6QD-3CY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div class="col"  style="position:relative; left:40px;">
+						<ul>
+							<li class=fragment><text class=cite>Perets+2007</text>: Binaries scattered from
+								>1 pc distances
+							<li class=fragment><text class=cite>Madigan+2009</text>: Binaries from<br>young disc
+						</ul>
+						</div>
+					</div>
+
+				</section>
+
+
+				<section><h2>Binary disruptions 101</h2>
+					<div style="text-align:left">
+						<video align="left" width="1800" muted controls><source data-src="figures/example_disruption_new.webm" type="video/webm" /></video>
+					</div>
+				</section>
+
+				<section><h2>Binary disruptions 101</h2>
+						<img align="left" width="1800" src="figures/example_disruption_end1.png">
+				</section>
+
+				<section><h2>Binary disruptions 101</h2>
+						<img align="left" width="1800" src="figures/example_disruption_end2.png">
+				</section>
+ 
+				<section><h2>Zone of Avoidance</h2>
+					<img src="figures/bin_disrupt_start_og.svg" width="1600" align="left">
+				</section>
+
+
+				<section><h2>Zone of Avoidance</h2>
+					<img src="figures/bin_disrupt_start_b_og.svg" width="1600" align="left">
+				</section>
+
+
+				<section><h2>Zone of Avoidance</h2>
+					<img src="figures/bin_disrupt_start_c_og.png" width="1600" align="left">
+				</section>
+
+
+				<section>
+				<h2>Relaxation</h2>
+					<div class=container>
+					<div class="col" >
+						<figure  class=figb align="left" >
+							<img src=figures/nr_vis.png height=630>
+						<figcaption>Non-resonant relaxation</figcaption>
+						</figure>
+					</div>
+
+					<div class="col">
+						<figure  class=figb >
+							<img src=figures/rr_vis_red3.png>
+							<figcaption>Resonant relaxation: Rauch&Tremaine 1996, Perets et al 2009, Merritt et al 2011, Antonini&Merritt 2013, Bar-Or&Fouvry 2018</figcaption>
+						</figure>
+					</div>
+
+					</div>
+				</section>
+
+				<section><h2>Background</h2>
+				<ul>
+					<li class=fragment>$m_{\rm bh}(r)=2.4\times 10^3 \left(r / 0.01 {\rm pc}\right) M_{\odot}$. 10 $M_{\odot}$ each
+								<text class=cite>(Antonini&Merritt 2013)</text>
+					<li class=fragment>$m_{\rm *}(r)=300 \left(r / 0.01 {\rm pc}\right)^{1.8} M_{\odot}$
+								 <text class=cite>(Schodel+2018)</text> 
+					<li class=fragment>2500 $M_{\odot}$ inside S2 $\sim$ upper limit from GRAVITY...
+					<li class=fragment>Diffusion Coefficient from JuDOKA <text class=cite>(Tep+2021)</text>
+				</ul>
+					
+
+				</section>
+
+
+				<section><h2>Relaxation</h2>
+					<div style="text-align:left">
+						<video align="left" width="1600" muted controls><source data-src="figures/za_vis.webm" type="video/webm" /></video>
+					</div>
+				</section>
+
+
+<!-- 
+
+				<section data-transition="none"><h2>Black holes dominate relaxation!</h2>
+				<div class=container>
+					<div class=col>
+						<figure class=figb align="left">
+							<img src=figures/X-Ray-Binary-Stars-at-the-Galactic-Center.jpg>
+							<figcaption><text class=cite>Hailey et al 2018 </text></figcaption>
+						</figure>
+					</div>
+					<div class=col>
+						<ul>
+							<li class=fragment>$\sim 10^3$ BHs in central 0.1 pc (2.5'')
+							<li class=fragment>Mass segregation <text class=cite>(e.g. Morris 1993)</text> or In-situ
+									<text class=cite><text style="font-weight:bold;">Generozov</text> et al 2018</text>
+							<li class=fragment>$m_{\rm bh}(r)=2.4\times 10^4 \left(\frac{r}{0.1 {\rm pc}}\right) M_{\odot}$
+								<text class=cite>(Antonini&Merritt 2013)</text>
+								<li class=fragment>
+						</ul>
+					</div>
+				</div>
+			        </section>
+			 -->
+		
+
+				<section><h2>Relaxation</h2>
+					<div style="text-align:left">
+						<video align="left" width="1600" muted controls><source data-src="figures/za_vis.webm" type="video/webm" /></video>
+					</div>
+				</section>
+
+				<section><h2>Detailed Comparisons</h2>
+					<div style="text-align:left">
+						<img src="figures/ecc_compare.svg" width="1600" align="left">	
+					</div>
+				</section>
+
+				<section><h2>Detailed Comparisons</h2>
+					<div style="text-align:left">
+						<img src="figures/rp_compare.svg" width="1600" align="left">	
+					</div>
+				</section>
+
+				<section><h2>Detailed Comparisons (All Stars)</h2>
+					<div style="text-align:left">
+						<img src="figures/k_compare_2.svg" width="1600" align="left">	
+					</div>
+				</section>
+		
+
+
+				<section><h2>Conclusions</h2>
+					<ul>
+						<li class=fragment>External binary disruptions + relaxation can account for the S-star orbital distribution
+						<li class=fragment>Disk is possible but may require more massive black holes
+					</ul>
+				</section>
+
+
+				<!------------------------------------------------------------------------------>
+
+				<section data-transition="none"><h2>Diffusion coefficients</h2>
+					<img src="figures/diff_coeff_b_self_cons.svg" width="1600" align="left">
+				</section>
+
+
+				<section><h2>Detailed Comparisons</h2>
+					<div style="text-align:left">
+						<img src="figures/k_compare_1.svg" width="1600" align="left">	
+					</div>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="buttons.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				slideNumber:true,
+				width: 1920,
+				height: 1080,
+				// Factor of the display size that should remain empty around the content
+				margin: 0.03,
+				// Bounds for smallest/largest possible scale to apply to content
+				minScale: 0.2,
+				maxScale: 1.5,
+				history: true,
+				transition: 'none',
+				progress:false,
+				math: {
+					mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+					config: 'TeX-AMS_HTML-full'
+				},
+				dependencies: [
+				    { src: 'plugin/math/math.js', async: true },
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					// { src: 'plugin/math/math.js', async: true }
+
+				]
+			});
+		</script>
+		<!-- <script src="pdfjs/src/pdf.js"></script> -->
+	</body>
+</html>
